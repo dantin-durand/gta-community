@@ -136,7 +136,7 @@
     </section>
     <section class="cta_register">
         <h2>A vous de jouer !</h2>
-        <a class="btn" href="{{ route('register') }}">{{ __('Register') }}</a>
+        <a class="btn btn-lg rounded-pill bg-default-theme" href="{{ route('register') }}">{{ __('Register') }}</a>
     </section>
 </main>
 @endsection

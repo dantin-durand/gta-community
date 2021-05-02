@@ -42,7 +42,7 @@
             <div class="form-group row mt-4">
                 <label for="imageUrl" class="col-md-4 col-form-label text-md-right">{{ __('Nouvel avatar') }}</label>
 
-                <div class="col-md-6">
+                <div class="col-12 col-md-6">
                     <input wire:model.defer="image" id="imageUrl" type="file" class="" name="imageUrl" value="{{ old('avatar') }}" autocomplete="avatar" autofocus>
 
                     @error('image')
