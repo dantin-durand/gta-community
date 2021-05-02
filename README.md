@@ -20,4 +20,4 @@ composer install && php artisan migrate && php artisan db:seed && npm i && npm r
 
 ## Démo
 
-lien de la démo: [https://gta-community.herokuapp.com/](https://gta-community.herokuapp.com/)
+lien de la démo: [http://gta-community.herokuapp.com/](https://gta-community.herokuapp.com/)
