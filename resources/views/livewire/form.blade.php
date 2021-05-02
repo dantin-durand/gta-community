@@ -15,6 +15,6 @@
             @enderror
         </div>
 
-        <button type="submit" class="btn btn-primary rounded-pill float-end">Créer un post</button>
+        <button type="submit" class="btn rounded-pill bg-default-theme">Créer un post</button>
     </form>
 </div>

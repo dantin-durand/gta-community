@@ -20,7 +20,9 @@
 
     </div>
     @endforeach
-    {{ $posts->links('vendor.livewire.bootstrap') }}
+    <div class="d-flex justify-content-center">
+        {{ $posts->links('vendor.livewire.bootstrap') }}
+    </div>
 
 
 </div>
