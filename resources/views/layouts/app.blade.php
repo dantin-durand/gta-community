@@ -21,6 +21,7 @@
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/favicon.svg" type="image/x-icon">
 </head>
 
 <body>
@@ -28,7 +29,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
+                    <img src="/img/logo.svg" alt="" style="height: 20px;">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -84,6 +85,17 @@
         <main class="py-4">
             @yield('content')
         </main>
+
+        <footer class="bg-default-theme d-flex justify-content-around align-items-center" style="width: 100%; padding: 20px 0px;">
+
+            <div class="col-6">
+                <p class="m-0">Copyright © 2020 gta community</p>
+            </div>
+            <div class="col-6 text-right">
+                <img src="/img/logo-white.svg" alt="logo" style="height: 20px;" />
+            </div>
+
+        </footer>
     </div>
     @livewireScripts
 </body>
