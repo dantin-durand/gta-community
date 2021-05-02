@@ -86,12 +86,12 @@
             @yield('content')
         </main>
 
-        <footer class="bg-default-theme d-flex justify-content-around align-items-center" style="width: 100%; padding: 20px 0px;">
+        <footer class="bg-default-theme d-flex flex-column flex-md-row justify-content-around align-items-center" style="width: 100%; padding: 20px 0px;">
 
-            <div class="col-6">
+            <div class="col-12 col-md-6 text-center text-md-left">
                 <p class="m-0">Copyright © 2020 gta community</p>
             </div>
-            <div class="col-6 text-right">
+            <div class="col-12 col-md-6 text-center text-md-right mt-2 mt-dm-0">
                 <img src="/img/logo-white.svg" alt="logo" style="height: 20px;" />
             </div>
 
