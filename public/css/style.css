@@ -1,0 +1,81 @@
+body {
+    font-family: "Montserrat", sans-serif !important;
+    background-color: #fff;
+}
+.navbar-custom {
+    background-color: #f6f6f6 !important;
+}
+.navbar-custom .nav-item > a {
+    color: #000 !important;
+}
+.bg-default-theme {
+    background-color: #c9000f;
+    color: #fff;
+}
+.text-default-theme {
+    color: #c9000f;
+}
+.fw-bold {
+    font-weight: bold;
+}
+
+.profile-post {
+    display: flex;
+    align-items: center;
+}
+
+.profile-post p {
+    margin-bottom: 0;
+}
+
+.profile-post .time {
+    font-size: 10px;
+    padding: 0px;
+    display: block;
+}
+
+.profile-picture-post {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.profile-picture-pres {
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.post-container {
+    position: relative;
+}
+
+.remove-post {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: transparent;
+    border: 0px;
+    color: rgb(244, 75, 75);
+}
+
+.like-btn {
+    background-color: transparent;
+    border: 0px;
+}
+
+.toast-custom {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 20;
+}
+
+.form-post {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+}
