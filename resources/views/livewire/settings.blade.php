@@ -26,6 +26,7 @@
     @else
     <div class="user_settings p-2">
         <form wire:submit.prevent="submitForm" type="POST" class="d-flex flex-column" enctype="multipart/form-data">
+            @csrf
             <div class="form-group row mt-4">
                 <label for="username" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
 
