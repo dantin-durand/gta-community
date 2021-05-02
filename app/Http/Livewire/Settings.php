@@ -70,7 +70,7 @@ class Settings extends Component
                 'min:8',
                 new HashedPasswordCheck(),
             ],
-            'newPassword' => 'required|min:8|different:oldPassword',
+            'newPassword' => 'required|min:8',
             'userEmail' => [
                 'required',
                 'email',
